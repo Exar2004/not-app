@@ -17,9 +17,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourname.schedulednotificationsapp",
+      "googleServicesFile": "./google-services.json"
+    
     },
     "web": {
       "bundler": "metro",

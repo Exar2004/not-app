@@ -26,9 +26,9 @@ export default function index() {
   async function schedulePushNotification(date: Date) {
     await Notifications.scheduleNotificationAsync({
       content: {
-        title: "Scheduled Notification",
-        body: 'This is a test notification',
-        data: { data: 'goes here' },
+        title: "esta na hora de sair",
+        body: 'va pra fatec',
+        data: { uri: 'geo:0,0?q="Fatec Maua"' },
       },
       trigger: date,
     });
